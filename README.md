@@ -1,4 +1,9 @@
 # DemoFlex
+
+<html>
+<head>
+</head>
+<body>
 <p>
 <h2>Demo Flex 1</h2>
 <img src"https://github.com/tienho21/DemoFlex/blob/master/FlexPicture1.PNG?raw=true">
@@ -14,5 +19,6 @@
 <p>
 <h2>Demo Flex 4</h2>
 <img src"https://github.com/tienho21/DemoFlex/blob/master/FlexPicture4.PNG?raw=true">
-
 <p>
+</body>
+</html>
