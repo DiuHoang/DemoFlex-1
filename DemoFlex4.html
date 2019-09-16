@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Demo Flex 4</title>
+	<style type="text/css">
+		.flex{
+			display: flex;
+			flex-direction: column;
+		}
+		.div1{
+			background-color: red;
+			flex-grow: 1;
+		}
+		.div2{
+			background-color: blue;
+			flex-grow: 1;
+		}
+		.div3{
+			background-color: green;
+			flex-grow: 1;
+		}
+		@media only screen and (min-width: 600px){
+			.flex{
+				display: flex;
+				flex-direction: row;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="flex">
+		<div class="div1">
+			<h1>div 1</h1>
+		</div>
+		<div class="div2">
+			<h1>div 2</h1>
+		</div>
+		<div class="div3">
+			<h1>div 3</h1>
+		</div>
+	</div>
+</body>
+</html>
